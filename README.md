@@ -1,9 +1,10 @@
 # ecsite2022
+<!-- 初期データは削除します。 -->
  2022年度Webデザイン学科WS1「JavaScript演習」課題SSGでECサイト初期データ
  
 ## 完成品
  
-完成後、ここにURLを貼ってください。
+<!-- 完成後、ここにURLを貼ってください。-->
  
 ## Features
  
@@ -13,6 +14,7 @@
 
 - 11ty@eleventy 1.0.1
 - jQuery 3.6.0
+- Nunjucks
  
 # Author
  
@@ -22,5 +24,5 @@
  
 # License
  
-"hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+ecsite2022 is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
 
