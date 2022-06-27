@@ -1,0 +1,19 @@
+# Ignore installed npm modules
+node_modules/
+
+# Ignore build tool output, e.g. code coverage
+.nyc_output/
+coverage/
+
+# Ignore API documentation
+api-docs/
+
+# Ignore folders from source code editors
+.vscode
+
+
+package-lock.json
+
+# Ignore test files
+.cache
+test/stubs-layout-cache/_includes/*.js
