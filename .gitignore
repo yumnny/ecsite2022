@@ -8,9 +8,8 @@ coverage/
 # Ignore API documentation
 api-docs/
 
-# Ignore folders from source code editors
+# Ignore garbage file
 .DS_Store
-
 package-lock.json
 
 # Ignore test files
