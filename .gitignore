@@ -9,7 +9,6 @@ coverage/
 api-docs/
 
 # Ignore folders from source code editors
-.vscode
 .DS_Store
 
 package-lock.json
