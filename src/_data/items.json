@@ -1,0 +1,31 @@
+[
+    {
+        "itemphotos": [
+            "umaibo01.jpg",
+            "umaibo02.jpg",
+            "umaibo03.jpg"
+        ],
+        "name": "うまい棒サラミ味",
+        "price": 12,
+        "state": true,
+        "text": "スパイスとスモークのきいたサラミスティックをうまい棒で再現しました。",
+        "id": 27002,
+        "colors": "黄色",
+        "maker": "（株）やおきん"
+    },
+    {
+        "itemphotos": [
+            "yochan01.jpg",
+            "yochan02.jpg",
+            "yochan03.jpg",
+            "yochan04.jpg"
+        ],
+        "name": "カットよっちゃん（よっちゃんイカ）",
+        "price": 50,
+        "state": false,
+        "text": "世界中から厳選したイカと、日本近海で獲れたタラのすり身を主に使用した魚肉シートを食べやすい一口サイズにカットし、秘伝の調味でさっぱりとした酢味に仕上げました。",
+        "id": "4710158-2",
+        "colors": "赤",
+        "maker": "よっちゃん食品工業（株）"
+    }
+]
