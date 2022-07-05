@@ -1,8 +1,8 @@
 ---
 pagination:
-  data: authors
+  data: items
   size: 10
-permalink: 'authors/{{ pagination.items[0].url | slugify }}/'
+permalink: 'items/{{ pagination.items[0].url | slugify }}/'
 ---
 {{ pagination.items | log }}
 <ul>

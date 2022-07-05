@@ -9,9 +9,9 @@ layout: layout.njk
 csspath: ../css/
 ---
 
-<h1>authors</h1>
+<h1>items</h1>
 <ul>
-	{% for author in authors %}
-	<li><a href="../authors/{{ author.url }}"> {{ author.url }} </a></li>
+	{% for item in items %}
+	<li><a href="../items/{{ item.url }}"> {{ item.url }} </a></li>
 	{% endfor %}
 </ul>
