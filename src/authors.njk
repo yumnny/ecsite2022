@@ -2,11 +2,10 @@
 pagination:
   data: authors
   size: 10
-alias: author
-permalink: 'authors/{{ author.name | slugify }}/'
+permalink: 'authors/{{ pagination.items[0].url | slugify }}/'
 ---
 {{ pagination.items | log }}
 <ul>
-	<li>{{ pagination.items[0].name }}</li>
+	<li>{{ pagination.items[0].url }}</li>
 	<li>{{ pagination.items[0].title }}</li>
 </ul>
