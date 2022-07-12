@@ -1,0 +1,33 @@
+---
+pagination:
+  data: products
+  size: 1
+permalink: 'products/{{ pagination.items[0].url | slugify }}/'
+csspath: ../css/
+---
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+<div class="inner">
+  </div>
+  </header>
+  <main>
+    <div class="inner"></div>
+<ul>
+	<li>{{ pagination.items[0].name }}</li>
+	<li>{{ pagination.items[0].price }}</li>
+</ul>
+<img src="../../images/{{ pagination.items[0].itemphotos[0] }}" alt="">
+  </main>
+<footer>
+ <div class="inner"></div>
+</footer>
+</body>
+</html>

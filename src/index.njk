@@ -1,9 +1,54 @@
 ---
 title: 記事タイトル
 layout: layout.njk
+csspath: ../css/
 ---
 
-<h1>{{ title }}</h1>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<header>
+		<div class="inner">
+<h1>Myshop</h1>
+<nav>
+	<ul>
+		<li><a href="#">HOME</a></li>
+		<li><a href="./about">ABOUT</a></li>
+	</ul>
+</nav>
+<div class="cart-icon">
+	<img src="" alt="">
+</div>
+</div>
+	</header>
+	<main>
+		<div class="inner">
+			<h2>商品一覧</h2>
+	<ul>
+	{% for product in products %}
+	<li><a href="../products/{{ product.url }}"> {{ product.name }} </a></li>
+	<img src="./images/{{ pagination.items[0].itemphotos[0] }}" alt="">
+	{% endfor %}
+	</ul>
+	<div class="more_btn">
+	<a href="">もっと見る</a>
+	</div>
+	</div>
+	</main>
+	<footer>
 <ul>
-	<li><a href="./article">article</a></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
 </ul>
+		<small>copyright Myshop 2022</small>
+	</footer>
+</body>
+</html>

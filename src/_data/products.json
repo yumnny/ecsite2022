@@ -1,9 +1,9 @@
 [
     {
         "itemphotos": [
-            "umaibo01.jpg",
-            "umaibo02.jpg",
-            "umaibo03.jpg"
+            "universe01.png",
+            "universe02.png",
+            "universe03.png"
         ],
         "name": "宇宙電波受信機",
         "price": 100,
@@ -16,10 +16,8 @@
     },
     {
         "itemphotos": [
-            "yochan01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "girls01.png",
+            "girls02.png"
         ],
         "name": "女子会時に食べたやつ",
         "price": 3000,
@@ -31,7 +29,11 @@
         "url": "girls"
     },
     {
-        "itemphotos": null,
+        "itemphotos": [
+            "bread01.png",
+            "bread02.png",
+            "bread03.png"
+        ],
         "name": "初詣で食べた揚げパン",
         "price": 100,
         "state": true,
@@ -42,7 +44,10 @@
         "url": "bread"
     },
     {
-        "itemphotos": null,
+        "itemphotos": [
+            "soba01.png",
+            "soba02.png"
+        ],
         "name": "コンビニの駐車場で食べた年越しそば",
         "price": 140,
         "state": true,
@@ -53,7 +58,11 @@
         "url": "soba"
     },
     {
-        "itemphotos": null,
+        "itemphotos": [
+            "goheimochi01.png",
+            "goheimochi02.png",
+            "goheimochi03.png"
+        ],
         "name": "五平餅",
         "price": 120,
         "state": true,
@@ -64,7 +73,11 @@
         "url": "goheimochi"
     },
     {
-        "itemphotos": null,
+        "itemphotos": [
+            "santa01.png",
+            "santa02.png",
+            "santa03.png"
+        ],
         "name": "さん太",
         "price": 100,
         "state": true,
@@ -75,7 +88,10 @@
         "url": "santa"
     },
     {
-        "itemphotos": null,
+        "itemphotos": [
+            "baumkuchen01.png",
+            "baumkuchen02.png"
+        ],
         "name": "飛び出し坊や",
         "price": "1,000",
         "state": true,
@@ -86,7 +102,12 @@
         "url": "baumkuchen"
     },
     {
-        "itemphotos": null,
+        "itemphotos": [
+            "curry01.png",
+            "curry02.png",
+            "curry03.png",
+            "curry04.png"
+        ],
         "name": "閉店したカレー屋さんのカレー",
         "price": "1,100",
         "state": true,
@@ -97,7 +118,11 @@
         "url": "curry"
     },
     {
-        "itemphotos": null,
+        "itemphotos": [
+            "mac01.png",
+            "mac02.png",
+            "mac03.png"
+        ],
         "name": "ビッグブレックファストデラックス",
         "price": 700,
         "state": true,
@@ -108,7 +133,11 @@
         "url": "mac"
     },
     {
-        "itemphotos": null,
+        "itemphotos": [
+            "scone01.png",
+            "scone02.png",
+            "scone03.png"
+        ],
         "name": "はんぶんこスコーン",
         "price": 700,
         "state": true,
