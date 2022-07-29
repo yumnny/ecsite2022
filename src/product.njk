@@ -5,6 +5,7 @@ pagination:
   data: products
   size: 1
 permalink: 'products/{{ pagination.items[0].url | slugify }}/'
+title: Myshop
 ---
 <!DOCTYPE html>
 <html lang="ja">
@@ -13,15 +14,14 @@ permalink: 'products/{{ pagination.items[0].url | slugify }}/'
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/style.css" />
-    <title>Document</title>
 </head>
 <body>
 	<header>
 		<div class="inner">
 			<div class="nav-wrap">
 				<div class="logo-area">
-<h1 class="logo-txt"><a href="#" class="logo">Myshop</a></h1>
-<p class="home-txt"><a href="http://localhost:8080/">HOME</a></p>
+<h1 class="logo-txt"><a href="/" class="logo">Myshop</a></h1>
+<p class="home-txt"><a href="/">HOME</a></p>
 </div>
 <div><img src="/images/cart_icon.png" alt="カートのアイコン" class="cart_icon"></div>
 </div>
