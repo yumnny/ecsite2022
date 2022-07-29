@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="../css/style.css" />
 		<title>記事タイトル</title>
 	</head>
 	<body>
@@ -15,74 +15,118 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Myshop</title>
 </head>
 <body>
 	<header>
 		<div class="inner">
-<h1>Myshop</h1>
-<nav>
-	<ul>
-		<li><a href="#">HOME</a></li>
-		<li><a href="./about">ABOUT</a></li>
-	</ul>
-</nav>
-<div class="cart-icon">
-	<img src="" alt="">
+			<div class="nav-wrap">
+				<div class="logo-area">
+<h1 class="logo-txt"><a href="http://localhost:8080/" class="logo">Myshop</a></h1>
+<p class="home-txt"><a href="http://localhost:8080/">HOME</a></p>
+</div>
+<div><img src="./images/cart_icon.png" alt="カートのアイコン" class="cart_icon"></div>
 </div>
 </div>
 	</header>
 	<main>
-		<div class="inner">
-			<h2>商品一覧</h2>
-	<ul>
+		<div class="inner main-inner">
+			<div class="item-desc">
+			<h2 class="item-head">商品一覧</h2>
+			<p>思い出売り場です。</p>
+			</div>
+	<ul class="item-wrap">
 	
-	<li><a href="../products/universe"> 宇宙電波受信機 </a></li>
-	<img src="./images/" alt="">
+	<a href="../products/universe" class="item"><div class="item-box">
+	<img src="./images/universe01.png" class="item-img">
+	 <p class="item-title">宇宙電波受信機</p>
+	 <p class="item-price">￥100</p>
+	 <p class="sale-txt">販売中です</p>
+	 </div></a>
 	
-	<li><a href="../products/girls"> 女子会時に食べたやつ </a></li>
-	<img src="./images/" alt="">
+	<a href="../products/girls" class="item"><div class="item-box">
+	<img src="./images/girls01.png" class="item-img">
+	 <p class="item-title">女子会時に食べたやつ</p>
+	 <p class="item-price">￥3000</p>
+	 <p class="sale-txt">販売中です</p>
+	 </div></a>
 	
-	<li><a href="../products/bread"> 初詣で食べた揚げパン </a></li>
-	<img src="./images/" alt="">
+	<a href="../products/bread" class="item"><div class="item-box">
+	<img src="./images/bread01.png" class="item-img">
+	 <p class="item-title">初詣で食べた揚げパン</p>
+	 <p class="item-price">￥100</p>
+	 <p class="sale-txt">販売中です</p>
+	 </div></a>
 	
-	<li><a href="../products/soba"> コンビニの駐車場で食べた年越しそば </a></li>
-	<img src="./images/" alt="">
+	<a href="../products/soba" class="item"><div class="item-box">
+	<img src="./images/soba01.png" class="item-img">
+	 <p class="item-title">コンビニの駐車場で食べた年越しそば</p>
+	 <p class="item-price">￥140</p>
+	 <p class="sale-txt">販売中です</p>
+	 </div></a>
 	
-	<li><a href="../products/goheimochi"> 五平餅 </a></li>
-	<img src="./images/" alt="">
+	<a href="../products/goheimochi" class="item"><div class="item-box">
+	<img src="./images/goheimochi01.png" class="item-img">
+	 <p class="item-title">五平餅</p>
+	 <p class="item-price">￥120</p>
+	 <p class="sale-txt">販売中です</p>
+	 </div></a>
 	
-	<li><a href="../products/santa"> さん太 </a></li>
-	<img src="./images/" alt="">
+	<a href="../products/santa" class="item"><div class="item-box">
+	<img src="./images/santa01.png" class="item-img">
+	 <p class="item-title">さん太</p>
+	 <p class="item-price">￥100</p>
+	 <p class="sale-txt">販売中です</p>
+	 </div></a>
 	
-	<li><a href="../products/baumkuchen"> 飛び出し坊や </a></li>
-	<img src="./images/" alt="">
+	<a href="../products/baumkuchen" class="item"><div class="item-box">
+	<img src="./images/baumkuchen01.png" class="item-img">
+	 <p class="item-title">飛び出し坊や</p>
+	 <p class="item-price">￥1,000</p>
+	 <p class="sale-txt">販売中です</p>
+	 </div></a>
 	
-	<li><a href="../products/curry"> 閉店したカレー屋さんのカレー </a></li>
-	<img src="./images/" alt="">
+	<a href="../products/curry" class="item"><div class="item-box">
+	<img src="./images/curry01.png" class="item-img">
+	 <p class="item-title">閉店したカレー屋さんのカレー</p>
+	 <p class="item-price">￥1,100</p>
+	 <p class="sale-txt">販売中です</p>
+	 </div></a>
 	
-	<li><a href="../products/mac"> ビッグブレックファストデラックス </a></li>
-	<img src="./images/" alt="">
+	<a href="../products/mac" class="item"><div class="item-box">
+	<img src="./images/mac01.png" class="item-img">
+	 <p class="item-title">ビッグブレックファストデラックス</p>
+	 <p class="item-price">￥700</p>
+	 <p class="sale-txt">販売中です</p>
+	 </div></a>
 	
-	<li><a href="../products/scone"> はんぶんこスコーン </a></li>
-	<img src="./images/" alt="">
+	<a href="../products/scone" class="item"><div class="item-box">
+	<img src="./images/scone01.png" class="item-img">
+	 <p class="item-title">はんぶんこスコーン</p>
+	 <p class="item-price">￥700</p>
+	 <p class="sale-txt">販売中です</p>
+	 </div></a>
 	
 	</ul>
-	<div class="more_btn">
-	<a href="">もっと見る</a>
-	</div>
+<div class="more_btn">
+	<div class="btn">もっと見る</div>
+</div>
 	</div>
 	</main>
 	<footer>
-<ul>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
+		<div class="footer-inner">
+<ul class="sns-wrap">
+	<li><img src="./images/insta.png" alt="" class="icon-img"></li>
+	<li><img src="./images/twitter.png" alt="" class="icon-img"></li>
+	<li><img src="./images/facebook.png" alt="" class="icon-img"></li>
 </ul>
 		<small>copyright Myshop 2022</small>
+		</div>
 	</footer>
+<script src="./js/jquery-3.6.0.min.js"></script>
+<script src="./js/script.js"></script>
 </body>
+
 </html>
 
 	</body>

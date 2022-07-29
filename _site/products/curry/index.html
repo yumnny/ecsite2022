@@ -1,26 +1,87 @@
+
 <!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/style.css" />
+		<title>レイアウトに指定したタイトル</title>
+	</head>
+	<body>
+		<!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="/css/style.css" />
+    <title>Document</title>
 </head>
 <body>
-  <header>
-<div class="inner">
-  </div>
-  </header>
+	<header>
+		<div class="inner">
+			<div class="nav-wrap">
+				<div class="logo-area">
+<h1 class="logo-txt"><a href="#" class="logo">Myshop</a></h1>
+<p class="home-txt"><a href="http://localhost:8080/">HOME</a></p>
+</div>
+<div><img src="/images/cart_icon.png" alt="カートのアイコン" class="cart_icon"></div>
+</div>
+</div>
+	</header>
   <main>
-    <div class="inner"></div>
+    	<div class="inner main-inner container-area">
+<div class="container">
+  <div class="main-img js-main-img">
+    <img src="../../images/curry01.png" alt="" class="main-img-item">
+  </div>
+  <ul class="sub-img js-sub-img">
+    <li class="current">
+      <img src="../../images/curry01.png" alt="">
+    </li>
+    <li class="current">
+      <img src="../../images/curry02.png" alt="">
+    </li>
+    <li class="current">
+        <img src="../../images/curry03.png" alt="">
+    </li>
+  </ul>
+</div>
+<div class="current-txt">
 <ul>
-	<li>閉店したカレー屋さんのカレー</li>
-	<li>1,100</li>
+	<li class="current-title">閉店したカレー屋さんのカレー</li>
+	<li class="current-price">¥1,100</li>
 </ul>
-<img src="../../images/curry01.png" alt="">
-  </main>
-<footer>
- <div class="inner"></div>
-</footer>
+<p><li class="current-text">今はなきカレー屋さんのカレーです。ここでアルバイトしていたので賄いは好き勝手に作っていました。こんな動物さんのカレーは出てきませんよ。激レアです。私は辛いのが苦手なのでレーズン入れまくってました！三枚目の写真は先輩が私のカレーを真似して作ったものです。まじで怖かったです。</li></p>
+<ul class="current-sub-area">
+	<li>・品番：20210916</li>
+	<li>・カラー：茶色</li>
+  <li>・サイズ：いい感じ</li>
+</ul>
+<div class="select-area"> <label for="amountSelect" class="label-name">数量</label>  <select class="label-box">  <option value="1">1</option>    <option value="2">2</option>    <option value="3">3</option>   </select>  </div>
+<div>  <button type="submit" class="cart-btn">カートに入れる</button></div>
+<ul class="supplement">
+<li>※この商品は最短で5日後にお届けします。</li>
+<li>※こちらの価格には消費税が含まれています。</li>
+<li>※送料は一律540円発生いたします。</li>
+</ul>
+</div>
+</div>
+	</main>
+	<footer>
+		<div class="footer-inner">
+<ul class="sns-wrap">
+	<li><img src="/images/insta.png" alt="" class="icon-img"></li>
+	<li><img src="/images/twitter.png" alt="" class="icon-img"></li>
+	<li><img src="/images/facebook.png" alt="" class="icon-img"></li>
+</ul>
+		<small>copyright Myshop 2022</small>
+		</div>
+	</footer>
+<script src="/js/jquery-3.6.0.min.js"></script>
+<script src="/js/script.js"></script>
 </body>
+</html>
+
+	</body>
 </html>

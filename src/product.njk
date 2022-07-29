@@ -1,9 +1,10 @@
 ---
+layout: layout.njk
+csspath: /css/
 pagination:
   data: products
   size: 1
 permalink: 'products/{{ pagination.items[0].url | slugify }}/'
-csspath: ../css/
 ---
 <!DOCTYPE html>
 <html lang="ja">
@@ -11,23 +12,71 @@ csspath: ../css/
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="/css/style.css" />
+    <title>Document</title>
 </head>
 <body>
-  <header>
-<div class="inner">
-  </div>
-  </header>
+	<header>
+		<div class="inner">
+			<div class="nav-wrap">
+				<div class="logo-area">
+<h1 class="logo-txt"><a href="#" class="logo">Myshop</a></h1>
+<p class="home-txt"><a href="http://localhost:8080/">HOME</a></p>
+</div>
+<div><img src="/images/cart_icon.png" alt="カートのアイコン" class="cart_icon"></div>
+</div>
+</div>
+	</header>
   <main>
-    <div class="inner"></div>
+    	<div class="inner main-inner container-area">
+<div class="container">
+  <div class="main-img js-main-img">
+    <img src="../../images/{{ pagination.items[0].itemphotos[0] }}" alt="" class="main-img-item">
+  </div>
+  <ul class="sub-img js-sub-img">
+    <li class="current">
+      <img src="../../images/{{ pagination.items[0].itemphotos[0] }}" alt="">
+    </li>
+    <li class="current">
+      <img src="../../images/{{ pagination.items[0].itemphotos[1] }}" alt="">
+    </li>
+    <li class="current">
+        <img src="../../images/{{ pagination.items[0].itemphotos[2] }}" alt="">
+    </li>
+  </ul>
+</div>
+<div class="current-txt">
 <ul>
-	<li>{{ pagination.items[0].name }}</li>
-	<li>{{ pagination.items[0].price }}</li>
+	<li class="current-title">{{ pagination.items[0].name }}</li>
+	<li class="current-price">¥{{ pagination.items[0].price }}</li>
 </ul>
-<img src="../../images/{{ pagination.items[0].itemphotos[0] }}" alt="">
-  </main>
-<footer>
- <div class="inner"></div>
-</footer>
+<p><li class="current-text">{{ pagination.items[0].text }}</li></p>
+<ul class="current-sub-area">
+	<li>・品番：{{ pagination.items[0].id }}</li>
+	<li>・カラー：{{ pagination.items[0].colors }}</li>
+  <li>・サイズ：いい感じ</li>
+</ul>
+<div class="select-area"> <label for="amountSelect" class="label-name">数量</label>  <select class="label-box">  <option value="1">1</option>    <option value="2">2</option>    <option value="3">3</option>   </select>  </div>
+<div>  <button type="submit" class="cart-btn">カートに入れる</button></div>
+<ul class="supplement">
+<li>※この商品は最短で5日後にお届けします。</li>
+<li>※こちらの価格には消費税が含まれています。</li>
+<li>※送料は一律540円発生いたします。</li>
+</ul>
+</div>
+</div>
+	</main>
+	<footer>
+		<div class="footer-inner">
+<ul class="sns-wrap">
+	<li><img src="/images/insta.png" alt="" class="icon-img"></li>
+	<li><img src="/images/twitter.png" alt="" class="icon-img"></li>
+	<li><img src="/images/facebook.png" alt="" class="icon-img"></li>
+</ul>
+		<small>copyright Myshop 2022</small>
+		</div>
+	</footer>
+<script src="/js/jquery-3.6.0.min.js"></script>
+<script src="/js/script.js"></script>
 </body>
 </html>

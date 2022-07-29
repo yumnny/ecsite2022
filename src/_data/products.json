@@ -17,7 +17,8 @@
     {
         "itemphotos": [
             "girls01.png",
-            "girls02.png"
+            "girls02.png",
+            "girls03.png"
         ],
         "name": "女子会時に食べたやつ",
         "price": 3000,
@@ -46,7 +47,8 @@
     {
         "itemphotos": [
             "soba01.png",
-            "soba02.png"
+            "soba02.png",
+            "soba03.png"
         ],
         "name": "コンビニの駐車場で食べた年越しそば",
         "price": 140,
@@ -90,7 +92,8 @@
     {
         "itemphotos": [
             "baumkuchen01.png",
-            "baumkuchen02.png"
+            "baumkuchen02.png",
+            "baumkuchen03.png"
         ],
         "name": "飛び出し坊や",
         "price": "1,000",
@@ -105,8 +108,7 @@
         "itemphotos": [
             "curry01.png",
             "curry02.png",
-            "curry03.png",
-            "curry04.png"
+            "curry03.png"
         ],
         "name": "閉店したカレー屋さんのカレー",
         "price": "1,100",

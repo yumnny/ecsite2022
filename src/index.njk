@@ -10,45 +10,53 @@ csspath: ../css/
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Myshop</title>
 </head>
 <body>
 	<header>
 		<div class="inner">
-<h1>Myshop</h1>
-<nav>
-	<ul>
-		<li><a href="#">HOME</a></li>
-		<li><a href="./about">ABOUT</a></li>
-	</ul>
-</nav>
-<div class="cart-icon">
-	<img src="" alt="">
+			<div class="nav-wrap">
+				<div class="logo-area">
+<h1 class="logo-txt"><a href="http://localhost:8080/" class="logo">Myshop</a></h1>
+<p class="home-txt"><a href="http://localhost:8080/">HOME</a></p>
+</div>
+<div><img src="./images/cart_icon.png" alt="カートのアイコン" class="cart_icon"></div>
 </div>
 </div>
 	</header>
 	<main>
-		<div class="inner">
-			<h2>商品一覧</h2>
-	<ul>
+		<div class="inner main-inner">
+			<div class="item-desc">
+			<h2 class="item-head">商品一覧</h2>
+			<p>思い出売り場です。</p>
+			</div>
+	<ul class="item-wrap">
 	{% for product in products %}
-	<li><a href="../products/{{ product.url }}"> {{ product.name }} </a></li>
-	<img src="./images/{{ pagination.items[0].itemphotos[0] }}" alt="">
+	<a href="../products/{{ product.url }}" class="item"><div class="item-box">
+	<img src="./images/{{ product.url}}01.png" class="item-img">
+	 <p class="item-title">{{ product.name }}</p>
+	 <p class="item-price">￥{{ product.price }}</p>
+	 <p class="sale-txt">販売中です</p>
+	 </div></a>
 	{% endfor %}
 	</ul>
-	<div class="more_btn">
-	<a href="">もっと見る</a>
-	</div>
+<div class="more_btn">
+	<div class="btn">もっと見る</div>
+</div>
 	</div>
 	</main>
 	<footer>
-<ul>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
+		<div class="footer-inner">
+<ul class="sns-wrap">
+	<li><img src="./images/insta.png" alt="" class="icon-img"></li>
+	<li><img src="./images/twitter.png" alt="" class="icon-img"></li>
+	<li><img src="./images/facebook.png" alt="" class="icon-img"></li>
 </ul>
 		<small>copyright Myshop 2022</small>
+		</div>
 	</footer>
+<script src="./js/jquery-3.6.0.min.js"></script>
+<script src="./js/script.js"></script>
 </body>
+
 </html>

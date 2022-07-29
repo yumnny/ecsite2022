@@ -1,1 +1,288 @@
 @charset "utf-8";
+
+body {
+    margin: 0;
+    font-family:"A P-OTF 秀英丸ゴシック StdN",
+    "A P-OTF 秀英にじみ丸ゴ Std B"
+}
+a {
+    text-decoration: none;
+    color: #202533;
+}
+p {
+    margin: 0;
+    color: #202533;
+}
+li {
+    list-style: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.inner {
+    padding: 0 40px;
+}
+.main-inner {
+    margin-bottom: 100px;
+}
+.logo {
+    font-size: 26px;
+}
+.nav-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.logo-area {
+    display: flex;
+    align-items: baseline;
+}
+.logo-txt {
+    margin: 0;
+}
+.home-txt {
+    padding: 20px;
+}
+header {
+    border-bottom: 1px solid #d9dee6;
+}
+.item-head {
+    margin: 0;
+    font-size: 24px;
+}
+.item-desc {
+    padding: 48px 20px 70px;
+    text-align: center;
+}
+.item-img {
+width: 100%;
+height: 360px;
+object-fit: cover;
+}
+.item-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 180px;
+}
+.sale-txt {
+    background-color: #f5f5f5;
+    display: inline;
+    padding: 16px;
+    font-size: 14px;
+    border-radius: 50px;
+    color: #384359;
+}
+.item {
+width: 33%;
+}
+.item-box {
+        padding: 0 0.6rem 5.2rem;
+}
+.item-price {
+    margin-bottom: 16px;
+}
+.btn {
+    display: inline;
+    background-color: #0fafaa;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 50px;
+}
+.more_btn{
+    text-align: center;
+}
+footer {
+    background-color: #2a3242;
+    padding: 60px 0;
+    width: 100%;
+}
+footer small {
+        color: #fff;
+        text-align: center;
+        display: block;
+}
+.icon-img {
+    width: 20px;
+}
+.sns-wrap {
+    display: flex;
+    justify-content: right;
+}
+.footer-inner {
+    margin: 0 auto;
+}
+.sns-wrap {
+    margin-right: 40px;
+}
+.sns-wrap li {
+    margin-left: 16px;
+}
+@media only screen and (min-width:1640px) {
+    .item-wrap {
+        padding: 0 230px;
+    }
+}
+@media only screen and (max-width:1430px) {
+    .item-wrap {
+        padding: 0 126px;
+    }
+}
+@media only screen and (max-width:1246px) {
+    .item-wrap {
+        padding: 0 80px;
+    }
+}
+@media only screen and (max-width:1000px) {
+.item {
+    width: 48%;
+}
+}
+@media only screen and (max-width:806px) {
+.item-wrap {
+    padding: 0;
+}
+}
+@media only screen and (max-width:608px) {
+.item-img {
+    height: 240px;
+}
+}
+@media only screen and (max-width:414px) {
+.inner {
+    padding: 0 20px;
+}
+.item-head {
+    font-size: 20px;
+}
+.item-desc {
+    padding: 40px 20px 50px;
+}
+.item-box {
+    padding: 0 0.4rem 4.2rem;
+    font-size: 14px;
+}
+.item-img {
+    height: 220px;
+}
+.item-title {
+    font-weight: bold;
+}
+.item-price {
+    margin-bottom: 10px;
+}
+.sale-txt {
+    padding: 12px;
+    font-size: 12px;
+}
+small {
+    margin-top: 20px;
+}
+}
+/* product.njk */
+
+.sub-img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.main-img-item {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.sub-img img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.sub-img li {
+    width: 100%;
+    opacity: 0.6;
+}
+.container-area {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.container {
+    width: 40%;
+    margin-right: 30px;
+}
+.current-txt {
+    width: 40%;
+    margin-left: 30px;
+}
+.current-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.current-price {
+    margin-bottom: 20px;
+}
+.current-sub-area {
+    margin: 20px 0;
+}
+.label-name {
+    font-size: 18px;
+        padding-right: 10px;
+}
+.label-box {
+        width: 240px;
+        height: 36px;
+}
+.select-area {
+    margin-bottom: 45px;
+}
+.cart-btn {
+        width: 100%;
+        height: 50px;
+}
+.supplement {
+    margin-top: 30px;
+    font-size: 12px;
+}
+@media only screen and (min-width:1520px) {
+    .container {
+        width: 30%;
+    }
+}
+@media only screen and (max-width:414px) {
+.container-area {
+    display: block;
+    padding-top: 40px;
+}
+.container {
+    width: 100%;
+}
+.current-txt {
+    width: 100%;
+    margin-left: 0;
+}
+.main-img-item {
+    height: 360px;
+}
+.sub-img img {
+    height: 100px;
+}
+.current-title {
+    font-size: 18px;
+    margin: 12px 0;
+}
+.current-price {
+    margin-bottom: 14px;
+}
+.current-text {
+    font-size: 14px;
+}
+.current-sub-area {
+    margin: 16px 0;
+    font-size: 14px;
+}
+.select-area {
+    margin-bottom: 30px;
+}
+}
